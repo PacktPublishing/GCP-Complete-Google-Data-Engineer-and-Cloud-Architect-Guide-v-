@@ -1,0 +1,3 @@
+gcloud compute firewall-rules create nginx-firewall \
+ --allow tcp:80,tcp:443 \
+ --target-tags nginxstack-tcp-80,nginxstack-tcp-443
